@@ -54,7 +54,11 @@ body {
 #header {
   padding-top: 20px;
 }
-
+.col-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .header__nav {
   display: flex;
   align-items: center;
@@ -433,7 +437,8 @@ body {
 
 .footer.input {
   width: 325px;
-  height: 48px;
+  height: 58px;
+  border: 1px solid #e8e8e8;
 }
 .footer__button {
   padding-top: 50px;
@@ -605,11 +610,9 @@ body {
 } 
 
 @media screen and (max-width: 460px) {
-  .latest__list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  } 
+  .latest__item {
+    width: 100%;
+  }
   .footer.input {
     width: 100%;
   }
