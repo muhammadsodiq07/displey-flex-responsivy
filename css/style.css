@@ -376,11 +376,7 @@ body {
   border: 1px solid #e8e8e8;
   background-color: #f5f5f5;
 }
-.active {
-  height: 193px;
-  border: 1px solid #e8e8e8;
-  border-radius: 2px;
-}
+
 
 .send__btn {
   padding: 15px 54px;
@@ -496,6 +492,7 @@ body {
     margin-bottom: 10px;
   }
   .form {
+    width: 100%;
     text-align: center;
   }
   .form__btn {
@@ -589,7 +586,7 @@ body {
   }
   .latest__name {
     width: 100%;
-  }
+  } 
   .contact__title {
     width: 100%;
     text-align: center;
@@ -612,6 +609,9 @@ body {
 @media screen and (max-width: 460px) {
   .latest__item {
     width: 100%;
+  }
+  .contact__img {
+    left:20px;
   }
   .footer.input {
     width: 100%;
