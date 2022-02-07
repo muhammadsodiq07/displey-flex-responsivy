@@ -7,11 +7,276 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-  <link rel="stylesheet" href="css/col.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+  <header id="header">
+    <section class="header-site">
+      <div class="container">
+        <div class="header">
+          <div class="col-row row middle-xs between-xs">
+            <div class="header__logobox">
+              <a class="header__img" href="#"></a>
+            </div>
+            <div class="header__menu">
+              <nav class="header__nav nav">
+                <ul class="nav__list row middle">
+                  <li class="nav__item">
+                    <a class="nav__link nav__link--active" href="#">
+                      product
+                    </a>
+                  </li>
+                  
+                  <li class="nav__item">
+                    <a class="nav__link" href="costumer.html">
+                      Customers
+                    </a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="pricing.html">
+                      Pricing
+                    </a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="#">
+                      Resources
+                    </a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link nav__link--hover" href="#">
+                      Sign In
+                    </a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link nav__link--hover nav__link--btn" href="#">
+                      Sign Up
+                    </a>
+                  </li>
+                </ul>
+                <button id="modeBtn" class="header__dark"></button>
+              </nav>
+            </div>
+            <button class="header__burger"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+
+
+  <section class="bisnes">
+    <div class="container">
+      <div class="great">
+        <div class="great__main col-lg-12 row between-lg">
+          <div class="great__hero col-lg-6">
+              <h1 class="great__title">
+                Great Business made with Product.
+              </h1>
+              <p class="great__text">
+                Build better customer relationships easily messaging that provides a more personal experience for you and your customers.
+              </p>
+              <div class="great__form form">
+                <form action="">
+                    <input class="input" type="email" name="email" id="email" required placeholder="Enter your email adress">
+                    <div class="form__btn">
+                      <button class="great__btn btn" type="submit">Join Now</button>
+
+                    </div>
+                </form>
+              </div>
+              <div class="great__user row middle-xs">
+                  <img class="great__img" src="img/hero-user.png" alt="user">
+                  <p class="great__p">
+                    Join over 4,000+ other
+                  </p>
+              </div>
+          </div>
+          <div class="great__boxsimg col-lg-6 col-xs-12">
+            <img class="great__heroimg" src="img/Group 1452 (1).png" alt="laptop">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <main id="main">
+    <section class="stories">
+      <div class="container">
+        <div class="latest">
+          <h2 class="latest__title">
+            Latest Stories
+          </h2>
+          <p class="latest__text">
+            We focus on ergonomics and meeting you where you work. It's only a keystroke away. 
+          </p>
+          <ul class="latest__list row middle-xs col-lg-12 col-md-12 col-xs-12">
+            <li class="latest__item col-lg-4 col-md-6 col-xs-12">
+                <p class="latest__decs">By <span class="latest__span">Wahid Ari</span> |  03 March 2019</p>
+                <h4 class="latest__name">
+                  Increasing Prosperity With Positive Thinking
+                </h4>
+            </li>
+            <li class="latest__item col-lg-4 col-md-6 col-xs-12">
+              <p class="latest__decs">By <span class="latest__span">Wahid Ari</span> |  03 March 2019</p>
+              <h4 class="latest__name">
+                Increasing Prosperity With Positive Thinking
+              </h4>
+          </li>
+          <li class="latest__item col-lg-4 col-md-6 col-xs-12">
+            <p class="latest__decs">By <span class="latest__span">Wahid Ari</span> |  03 March 2019</p>
+            <h4 class="latest__name">
+              Increasing Prosperity With Positive Thinking
+            </h4>
+        </li>
+        <li class="latest__item col-lg-4 col-md-6 col-xs-12">
+          <p class="latest__decs">By <span class="latest__span">Wahid Ari</span> |  03 March 2019</p>
+          <h4 class="latest__name">
+            Increasing Prosperity With Positive Thinking
+          </h4>
+      </li>
+      <li class="latest__item col-lg-4 col-md-6 col-xs-12">
+        <p class="latest__decs">By <span class="latest__span">Wahid Ari</span> |  03 March 2019</p>
+        <h4 class="latest__name">
+          Increasing Prosperity With Positive Thinking
+        </h4>
+    </li>
+    <li class="latest__item col-lg-4 col-md-6 col-xs-12">
+      <p class="latest__decs">By <span class="latest__span">Wahid Ari</span> |  03 March 2019</p>
+      <h4 class="latest__name">
+        Increasing Prosperity With Positive Thinking
+      </h4>
+    </li>
+   </ul>
+
+   <div class="latest__button">
+      <a class="latest__btn row middle-xs" href="#">More Stories <img class="latest__arrow" src="img/circle_right.svg" alt=""></a>
+   </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-us">
+      <div class="container">
+        <div class="contact">
+            <h2 class="contact__title">
+              Contact Us
+            </h2>
+            <p class="contact__text">
+              Need more detailed information? 
+              Get in touch with us.
+            </p>
+            <div class="contact__icons">
+                <a class="contact__icon" href="#">
+                  <img src="img/Group 1340.svg" alt="">
+                </a>
+                <a class="contact__icon" href="#">
+                  <img src="img/Group 1341.svg" alt="">
+                </a>
+                <a class="contact__icon" href="#">
+                  <img src="img/Group 1342.svg" alt="">
+                </a>
+            </div>
+            
+            <a class="contact__img" href="https://yandex.uz/maps/10335/tashkent/?ll=69.279737%2C41.311151&z=12">
+              <img class="contact__map" src="img/@ map screen.png" alt="">
+            </a>
+
+        </div> 
+      </div>
+    </section>
+
+    <section class="messege">
+      <div class="container">
+        <div class="send">
+          <h2 class="send__title">
+            Send a message
+          </h2>
+          <div class="send__form">
+            <form class="send__formin" action="">
+              <input class="send__input" type="text" name="" id="text" required placeholder="Your Name">
+              <input class="send__input" type="email" name="" id="email" required placeholder="Your Email">
+              <input class="send__input active" type="text" name="" id="text" required placeholder="Your Email">
+              <button type="submit" class="send__btn btn">
+                Send
+              </button>
+            </form>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+
+  <footer id="footer">
+    <div class="container">
+      <div class="footer row between-xs">
+        <div class="footer__logo">
+            <div class="footer__img">
+            </div>
+            <div class="footer__icon">
+              <a class="footer__iconss" href="#"><img src="img/Group 1340.svg" alt=""></a>
+              <a class="footer__iconss" href="#"><img src="img/Group 1341.svg" alt=""></a>
+              <a class="footer__iconss" href="#"><img src="img/Group 1342.svg" alt=""></a>
+            </div>
+        </div>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <h4 class="footer__name">
+                Resource
+              </h4>
+            </li>
+            <li class="footer__item">
+              About Us 
+            </li>
+            <li class="footer__item">
+              Blog 
+            </li>
+            <li class="footer__item">
+              Contact
+            </li>
+            <li class="footer__item">
+              FAQ
+            </li>
+          </ul>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <h4 class="footer__name">
+                Resource
+              </h4>
+            </li>
+            <li class="footer__item">
+              About Us 
+            </li>
+            <li class="footer__item">
+              Blog 
+            </li>
+            <li class="footer__item">
+              Contact
+            </li>
+            <li class="footer__item">
+              FAQ
+            </li>
+          </ul>
+          <div class="footer__main-div">
+            <p class="footer__text">
+              knowing you're always on the best energy deal.
+            </p>
+            <form action="">
+              <input class="footer__input" type="text" name="text" id="text">
+              <div class="footer__button">
+                <a class="footer__btn btn" href="#">Sign up Now</a>
+              </div>
+            </form>
+          </div>
+      </div>
+    </div>
+  </footer>
 
   <script src="js/main.js"></script>
 </body>
